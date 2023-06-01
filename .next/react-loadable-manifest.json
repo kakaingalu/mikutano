@@ -1,14 +1,13 @@
 {
-  "../node_modules/next/dist/client/next-dev.js -> ./dev/noop": {
-    "id": "./node_modules/next/dist/client/dev/noop.js",
-    "files": [
-      "static/chunks/node_modules_next_dist_client_dev_noop_js.js"
-    ]
-  },
   "chats.js -> react-chat-engine": {
-    "id": "./node_modules/react-chat-engine/dist/index.modern.js",
+    "id": 7606,
     "files": [
-      "static/chunks/node_modules_react-chat-engine_dist_index_modern_js.js"
+      "static/chunks/framework-08145f9ed2eff67a209a.js",
+      "static/chunks/c9d986fe.8f2d5e7af9af9b9c7286.js",
+      "static/chunks/eabe11fc.21f1b117605f34abd337.js",
+      "static/chunks/29107295.2648cb5e919f7c78c7cc.js",
+      "static/chunks/764-ab43ce83a44483c339f7.js",
+      "static/chunks/859.0025d115975c2ee3d04d.js"
     ]
   }
 }
