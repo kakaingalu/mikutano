@@ -6,8 +6,9 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <link rel="icon" href="/img1.png" />
+          <link rel="icon" href="/img1.png" className="custom-icon" />
           <link rel="preload" href="../images/img1.jpg" as="image" />
+	  <title>Mikutano</title>
         </Head>
         <body>
           <Main />

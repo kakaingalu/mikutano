@@ -32,6 +32,7 @@ export default function Auth() {
           <img src="/img1.png" alt="Logo" />
       </div>
       <div className="heading-top">
+	  <div class="head-separator"></div>
 	  Welcome to Mikutano
       </div>
       <div className="auth-container">
@@ -61,6 +62,20 @@ export default function Auth() {
         </form>
 
       </div>
+      <div className="body-text">
+	  <h1>What we do:</h1>
+       <ul class="space-list">
+      	<li>We aim to connect Tech newbies with professionals.</li>
+	<li>Through mikutano you get solutions to tech problems.</li>
+	<li>We enable sharing knowledge, collaboration, and solving problems together.</li>
+       </ul>
+      </div>
+     <footer className="footer">
+       <div class="footer-separator"></div>
+	  proudly created by Purity Chege, Joseph Kakai, Oluwatosin Orenaike<br />
+	  © 2023 Mikutano
+     </footer>
     </div>
   );
 }
+
