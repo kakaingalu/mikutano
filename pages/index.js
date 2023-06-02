@@ -26,9 +26,17 @@ export default function Auth() {
 
   return (
     <div className="background">
+      <div className="background-image">
+	  </div>
+      <div className="logo">
+          <img src="/img1.png" alt="Logo" />
+      </div>
+      <div className="heading-top">
+	  Welcome to Mikutano
+      </div>
       <div className="auth-container">
         <form className="auth-form" onSubmit={e => onSubmit(e)}>
-          <div className="auth-title">NextJS Chat</div>
+          <div className="auth-title">Mikutano</div>
 
           <div className="input-container">
             <input
