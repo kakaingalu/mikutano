@@ -5,36 +5,36 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/7JvTzD-gP5ETy9Qfv9_IY/_buildManifest.js",
-    "static/7JvTzD-gP5ETy9Qfv9_IY/_ssgManifest.js"
+    "static/UU4wZSV3Mvf8d-ZJ9KZSc/_buildManifest.js",
+    "static/UU4wZSV3Mvf8d-ZJ9KZSc/_ssgManifest.js"
   ],
   "pages": {
     "/": [
-      "static/chunks/webpack-0c2bcf9ab723093a790f.js",
-      "static/chunks/framework-08145f9ed2eff67a209a.js",
-      "static/chunks/main-decf7a0e391cc440fb11.js",
+      "static/chunks/webpack-76d5fbb28c6552b0f0c7.js",
+      "static/chunks/framework-b5d09c9b25f4537c70b3.js",
+      "static/chunks/main-1df8ed51db7cbdafef7b.js",
       "static/chunks/764-ab43ce83a44483c339f7.js",
       "static/chunks/551-a10c771f4965eb2f6cf7.js",
-      "static/chunks/pages/index-56e56edcba8fa19f2351.js"
+      "static/chunks/pages/index-802a53d4aa85d57e477a.js"
     ],
     "/_app": [
-      "static/chunks/webpack-0c2bcf9ab723093a790f.js",
-      "static/chunks/framework-08145f9ed2eff67a209a.js",
-      "static/chunks/main-decf7a0e391cc440fb11.js",
-      "static/css/b27a8bf27383ca5e241b.css",
-      "static/chunks/pages/_app-2f2226a0642aa9d57d58.js"
+      "static/chunks/webpack-76d5fbb28c6552b0f0c7.js",
+      "static/chunks/framework-b5d09c9b25f4537c70b3.js",
+      "static/chunks/main-1df8ed51db7cbdafef7b.js",
+      "static/css/e6cfac7c06e1ac9716e8.css",
+      "static/chunks/pages/_app-88c5f0ccdd04b4b4c630.js"
     ],
     "/_error": [
-      "static/chunks/webpack-0c2bcf9ab723093a790f.js",
-      "static/chunks/framework-08145f9ed2eff67a209a.js",
-      "static/chunks/main-decf7a0e391cc440fb11.js",
+      "static/chunks/webpack-76d5fbb28c6552b0f0c7.js",
+      "static/chunks/framework-b5d09c9b25f4537c70b3.js",
+      "static/chunks/main-1df8ed51db7cbdafef7b.js",
       "static/chunks/pages/_error-737a04e9a0da63c9d162.js"
     ],
     "/chats": [
-      "static/chunks/webpack-0c2bcf9ab723093a790f.js",
-      "static/chunks/framework-08145f9ed2eff67a209a.js",
-      "static/chunks/main-decf7a0e391cc440fb11.js",
-      "static/chunks/pages/chats-d3306cf242807de4832d.js"
+      "static/chunks/webpack-76d5fbb28c6552b0f0c7.js",
+      "static/chunks/framework-b5d09c9b25f4537c70b3.js",
+      "static/chunks/main-1df8ed51db7cbdafef7b.js",
+      "static/chunks/pages/chats-2caec3940c528c4ca186.js"
     ]
   },
   "ampFirstPages": []

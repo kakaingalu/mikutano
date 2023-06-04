@@ -2,12 +2,12 @@
   "chats.js -> react-chat-engine": {
     "id": 7606,
     "files": [
-      "static/chunks/framework-08145f9ed2eff67a209a.js",
-      "static/chunks/c9d986fe.8f2d5e7af9af9b9c7286.js",
+      "static/chunks/framework-b5d09c9b25f4537c70b3.js",
+      "static/chunks/c9d986fe.a639aeca75e014c4ddf1.js",
       "static/chunks/eabe11fc.21f1b117605f34abd337.js",
       "static/chunks/29107295.2648cb5e919f7c78c7cc.js",
       "static/chunks/764-ab43ce83a44483c339f7.js",
-      "static/chunks/859.0025d115975c2ee3d04d.js"
+      "static/chunks/651.0fb57ba9109dc7473ff0.js"
     ]
   }
 }

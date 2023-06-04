@@ -1,5 +1,68 @@
-.shadow {
-  box-shadow: 0 2px 15px rgb(0 0 0 / 68%);
+.background {
+  padding: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  display: absolute !important;
+  top: 0 !important;
+  margin-top: 0 !important; 
+  background-color: #726dfe !important;
+}
+
+.shadow-chat {
+  box-shadow: 2px 2px 15px -2px rgb(0, 0, 0, 0.68 );
+  padding: 5px 5px;
+  padding-bottom: 5px;
+  width: 100%;
+  height: 100%;
+  display: absolute;
+  margin-top: 15vh;
+  margin-bottom: 70px;
+  background-color: #726dfe;
+}
+
+/*chat-engine section*/
+
+.chat-engine {
+  padding: 0;
+  margin-bottom: 0;
+  height: 20px;
+}
+
+/*chat-engine section*/
+.head-title {
+  color: white;
+  position: absolute !important;
+  top: 2vh !important;
+  left: 4vh !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.logo {
+  position: absolute !important;
+  top: 2vh !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.logout-button {
+  background-color: white !important;
+  color: white !important;
+  padding: 10px 20px !important;
+  border-radius: 20px !important;
+  border: 2px solid #938ffe  !important;
+  cursor: pointer !important;
+  height: 7vh !important;
+  width: 20vh !important;
+  font-weight: bold;
+  font-size: 2.75vh;
+  color: #938ffe !important;
+  margin-bottom: 0;
+  position: absolute;
+  right: 3.5vh;
+  top: 3vh;
+  text-align: center;
+  box-shadow: 2px 2px 15px -2px rgb(0, 0, 0, 0.68 );
 }
 
 /* Chat List */
@@ -8,17 +71,18 @@
 }
 
 .ce-chats-container {
-  background-color: #4a5162 !important;
-  border-radius: 0px !important;
+  background-color: white !important;
+  border-radius: 0 !important;
+  height: 500vh;
 }
 
 .ce-chat-form-container {
-  background-color: #4a5162 !important;
-  color: white;
+  background-color: white !important;
+  color: black;
 }
 
 .ce-chat-card {
-  margin: 0px 6px !important;
+  margin: 0 6px !important;
 }
 
 .ce-chat-card-loading-bar {
@@ -26,15 +90,15 @@
 }
 
 .ce-active-chat-card {
-  background-color: #726dfe !important;
+  background-color: rgba(114, 109, 254, 0.5) !important;
 }
 
 .ce-chat-title-text {
-  color: white !important;
+  color: gray !important;
 }
 
 .ce-chat-subtitle-text {
-  color: hsla(0, 0%, 100%, 0.568) !important;
+  color: gray !important;
 }
 
 .ce-chat-unread-dot {
@@ -44,12 +108,11 @@
 /* Chat Feed */
 
 .ce-chat-title-container {
-  background-color: #4a5162 !important;
-  border-radius: 0px !important;
+  background-color: white !important;
+  border-radius: 0 !important;
 }
-
 .ce-chat-feed-container {
-  background-color: #4a5162 !important;
+  background-color: white !important;
 }
 
 .ce-primary-button {
@@ -86,7 +149,7 @@
 }
 
 .ce-social-message-form {
-  background-color: #4a5162 !important;
+  background-color: white !important;
 }
 
 .ce-message-input-form {
@@ -97,28 +160,28 @@
   width: calc(100% - 140px) !important;
   position: relative !important;
   top: 4px !important;
-  border-width: 0px !important;
-  background-color: #4a5162 !important;
-  color: white !important;
+  border-width: 0 !important;
+  background-color: white !important;
+  color: gray !important;
 }
 #msg-textarea::placeholder {
-  color: hsla(0, 0%, 100%, 0.568) !important;
+  color: gray !important;
 }
 
 #ce-upload-document-icon {
-  color: white !important;
+  color: gray !important;
 }
 
 .ce-feed-container-bottom {
-  height: "44px";
+  height: "44px" !important;
 }
 
 .ce-message-images-row {
-  background-color: #4a5162 !important;
+  background-color: white !important;
 }
 
 .ce-their-message-sender {
-  color: hsla(0, 0%, 100%, 0.568) !important;
+  color: gray !important;
 }
 
 .ce-their-message-bubble {
@@ -129,23 +192,23 @@
 /* Chat Settings */
 
 .ce-settings {
-  background-color: #4a5162 !important;
-  border-radius: 0px !important;
+  background-color: white !important;
+  border-radius: 0 !important;
 }
 
 .ce-chat-title-form .ce-text-input {
-  background-color: #4a5162;
-  color: white;
+  background-color: white;
+  color: gray;
 }
 
 .ce-section-title-container {
-  background-color: #4a5162 !important;
-  color: white;
+  background-color: white !important;
+  color: gray;
 }
 
 #ce-options-drop-down {
-  background-color: #4a5162 !important;
-  color: white;
+  background-color: white !important;
+  color: gray;
 }
 
 .ce-person-text {
@@ -153,12 +216,61 @@
 }
 
 .ce-danger-button {
-  background-color: #4a5162 !important;
+  background-color: white !important;
   border: 1px solid #9a97fc !important;
   color: #9a97fc !important;
 }
 
 .ce-autocomplete-close {
   background-color: white !important;
-  border-radius: 0px !important;
+  border-radius: 0 !important;
+}
+
+.help-section {
+ height: 10px;
+}
+
+.help-header {
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.section-2 {
+  border-top: 2px solid rgba(114, 109, 254, 0.5);
+  box-shadow: 2px 8px 10px 1px rgba(0, 0, 0, 0.8);
+  position: absolute !important;
+  bottom: 0 !important;
+  top: 105% !important;
+  text-align: center !important;
+  height: 0px !important;
+  background-color: #726dfe !important;
+  z-index: 1;
+  left: 0;
+  color: white;
+  width: 100%;
+}
+
+.border {
+  position: relative !important;
+  border-top: 0.1px solid rgba(114, 109, 254, 0.5);
+  box-shadow: 2px 8px 10px 1px rgba(0, 0, 0, 0.8);
+  z-index: 1;
+  bottom: 4.8%;
+  left: 0; 
+}
+
+.border2 {
+  position: absolute !important;
+  border-top: 5px solid rgba(114, 109, 254, 0.5);
+  box-shadow: 2px 8px 10px 1px rgba(0, 0, 0, 0.8);
+  z-index: 1;
+  bottom: 3%;
+  left: 0;
+}
+
+.rights-text {
+  position: absolute;
+  top: 2.8vw;
+  left: 45%;
 }

@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect, useState } from "react";
 
 import { Context } from "../context";
 
@@ -10,6 +10,13 @@ export default function Auth() {
   const { username, setUsername, secret, setSecret } = useContext(Context);
 
   const router = useRouter()
+  const isChatsPage = router.pathname === '/chats';
+  const [currentDate, setCurrentDate] = useState('');
+  const [isDropdownOpen, setIsDropdownOpen] = useState(null);
+
+  const toggleDropdown = (dropdown) => {
+  setIsDropdownOpen(prevDropdown => prevDropdown === dropdown ? null : dropdown);
+};
 
   function onSubmit(e) {
     e.preventDefault()
@@ -24,15 +31,98 @@ export default function Auth() {
     .then(r => router.push('/chats'))
   }
 
+    const handleLogoClick = () => {
+      window.location.reload();
+  };
+
+  useEffect(() => {
+    // Get the current date and time
+    const updateDateTime = () => {
+      const now = new Date();
+
+      // Format the date and time as a string
+      const year = now.getFullYear();
+      const month = String(now.getMonth() + 1).padStart(2, '0');
+      const day = String(now.getDate()).padStart(2, '0');
+      const hours = String(now.getHours()).padStart(2, '0');
+      const minutes = String(now.getMinutes()).padStart(2, '0');
+      const seconds = String(now.getSeconds()).padStart(2, '0');
+      
+      // Combine the date parts
+      const formattedDate = `${year} - ${month} - ${day} - ${hours} : ${minutes} : ${seconds}`;
+
+      // Set the current date state
+      setCurrentDate(formattedDate);
+    };
+    // Update the current date and time immediately
+    updateDateTime();
+
+    // Update the current date and time every second
+    const interval = setInterval(updateDateTime, 1000);
+
+    // Cleanup the interval on component unmount
+    return () => {
+      clearInterval(interval);
+    };
+  }, []);
+
+
   return (
-    <div className="background">
+     <div className="container">
+     <div className="background-index">
+	  <h1 className="head-title-au" onClick={handleLogoClick}>Mikutano</h1>
+	  <div className="dropdown-container">
+	  <div className="twitter-logo" onClick={() => toggleDropdown('twitter')}>
+	    <img src="/twitter.svg" alt="twitter logo" />
+	    {isDropdownOpen === 'twitter' && (
+              <ul className="dropdown-list">
+                <a href="https://twitter.com/wantonraven" target="_blank" rel="noopener noreferrer">
+                1. Joseph Kakai
+              </a>
+                <li>Account 2</li>
+                <li>Account 3</li>
+              </ul>
+            )}
+	  </div>
+	  </div>
+	  <div className="dropdown-container">
+	  <div className="github-logo" onClick={() => toggleDropdown('github')}>
+            <img src="/github.svg" alt="github logo" />
+          {isDropdownOpen === 'github' && (
+              <ul className="dropdown-list2">
+                <a href="https://github.com/wantonraven" target="_blank" rel="noopener noreferrer">
+                1. Joseph Kakai
+              </a>
+                <li>Account 2</li>
+                <li>Account 3</li>
+              </ul>
+            )}
+
+	  </div>
+	  </div>
+	  <div className="dropdown-container">
+          <div className="gmail-logo" onClick={() => toggleDropdown('gmail')}>
+            <img src="/gmail.png" alt="gmail logo" />
+	  {isDropdownOpen === 'gmail' && (
+              <ul className="dropdown-list3">
+                <a href="mailto:josephngalu96@gmail.com">
+                1. Joseph Kakai
+              </a>
+                <li>Account 2</li>
+                <li>Account 3</li>
+              </ul>
+            )}
+
+          </div>
+	  </div>
+       {currentDate && <div className="date"> Date: {currentDate}</div>}
       <div className="background-image">
 	  </div>
-      <div className="logo">
+      <div className="logo" onClick={handleLogoClick}>
           <img src="/img1.png" alt="Logo" />
       </div>
       <div className="heading-top">
-	  <div class="head-separator"></div>
+	  <div className="head-separator"></div>
 	  Welcome to Mikutano
       </div>
       <div className="auth-container">
@@ -63,19 +153,21 @@ export default function Auth() {
 
       </div>
       <div className="body-text">
-	  <h1>What we do:</h1>
-       <ul class="space-list">
-      	<li>We aim to connect Tech newbies with professionals.</li>
-	<li>Through mikutano you get solutions to tech problems.</li>
-	<li>We enable sharing knowledge, collaboration, and solving problems together.</li>
-       </ul>
+	  <div className="body-head"><h1>What we do:</h1></div>
+	 <div className="space-list"> 
+           <ul>
+      	   <li>We aim to connect Tech newbies with professionals.</li>
+	   <li>Through mikutano you get solutions to tech problems.</li>
+	   <li>We enable sharing knowledge, collaboration, and solving problems together.</li>
+           </ul>
+	 </div>
       </div>
-     <footer className="footer">
-       <div class="footer-separator"></div>
-	  proudly created by Purity Chege, Joseph Kakai, Oluwatosin Orenaike<br />
-	  © 2023 Mikutano
-     </footer>
+     <footer className="section-1">
+       <div className="footer-separator"></div>
+	  <p>proudly created by Purity Chege, Joseph Kakai, Oluwatosin Orenaike</p>
+	  <p>© 2023 Mikutano</p>
+      </footer>
+     </div>
     </div>
   );
 }
-
