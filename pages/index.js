@@ -76,10 +76,16 @@ export default function Auth() {
 	    <img src="/twitter.svg" alt="twitter logo" />
 	    {isDropdownOpen === 'twitter' && (
               <ul className="dropdown-list">
-                <a href="https://twitter.com/wantonraven" target="_blank" rel="noopener noreferrer">
-                1. Joseph Kakai
-              </a>
-                <li>Account 2</li>
+                <li>
+                    <a href="https://twitter.com/wantonraven" target="_blank" rel="noopener noreferrer">
+                    1. Joseph Kakai
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/Khai_Purity01" target="_blank" rel="noopener noreferrer">
+                    2. Purity Chege
+                    </a>
+                </li>
                 <li>Account 3</li>
               </ul>
             )}
@@ -90,10 +96,16 @@ export default function Auth() {
             <img src="/github.svg" alt="github logo" />
           {isDropdownOpen === 'github' && (
               <ul className="dropdown-list2">
-                <a href="https://github.com/wantonraven" target="_blank" rel="noopener noreferrer">
-                1. Joseph Kakai
-              </a>
-                <li>Account 2</li>
+                <li>
+                    <a href="https://github.com/wantonraven" target="_blank" rel="noopener noreferrer">
+                    1. Joseph Kakai
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/Khaikhai01" target="_blank" rel="noopener noreferrer">
+                    2. Purity Chege
+                    </a>
+                </li>
                 <li>Account 3</li>
               </ul>
             )}
@@ -105,10 +117,16 @@ export default function Auth() {
             <img src="/gmail.png" alt="gmail logo" />
 	  {isDropdownOpen === 'gmail' && (
               <ul className="dropdown-list3">
-                <a href="mailto:josephngalu96@gmail.com">
-                1. Joseph Kakai
-              </a>
-                <li>Account 2</li>
+                <li>
+                    <a href="mailto:josephngalu96@gmail.com">
+                    1. Joseph Kakai
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:shishchei@gmail.com">
+                    2. Purity Chege
+                    </a>
+                </li>
                 <li>Account 3</li>
               </ul>
             )}
