@@ -86,7 +86,11 @@ export default function Auth() {
                     2. Purity Chege
                     </a>
                 </li>
-                <li>Account 3</li>
+		<li>    
+                    <a href="https://twitter.com/otomisin" target="_blank" rel="noopener noreferrer">
+		    3. Oluwatosin Orenaike
+		    </a>
+		</li>
               </ul>
             )}
 	  </div>
@@ -106,7 +110,11 @@ export default function Auth() {
                     2. Purity Chege
                     </a>
                 </li>
-                <li>Account 3</li>
+                <li>
+		   <a href="https://github.com/otomisin" target="_blank" rel="noopener norefererrer">
+		   3. Oluwatosin Orenaike
+		   </a>
+		</li>
               </ul>
             )}
 
@@ -127,7 +135,11 @@ export default function Auth() {
                     2. Purity Chege
                     </a>
                 </li>
-                <li>Account 3</li>
+                <li>
+		   <a href="orenaiket@yahoo.com">
+		   3. Oluwatosin Orenaike
+		   </a>
+		</li>
               </ul>
             )}
 
