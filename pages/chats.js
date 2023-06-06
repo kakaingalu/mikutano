@@ -40,6 +40,10 @@ export default function Chats() {
     }
   }, [username, secret]);
   
+  const handleLogoClick = () => {
+      window.location.reload();
+  };
+  
   const handleLogout = () => {
     localStorage.removeItem("username");
     localStorage.removeItem("secret");
@@ -54,9 +58,9 @@ export default function Chats() {
     <Head>
         <title>Mikutano</title>
     </Head>
-    <div className="background"><h1 className="head-title">Mikutano</h1>
-	  <div className="logo">
-          <img src="/img1.png" alt="Logo" />
+    <div className="background" onClick={handleLogoClick}><h1 className="head-title">Mikutano</h1>
+	  <div className="logo" onClick={handleLogoClick}>
+           <img src="/img1.png" alt="Logo" />
       </div>
       <button className="logout-button" onClick={handleLogout}>Logout</button>
       <div className="shadow-chat">
