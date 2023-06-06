@@ -1,0 +1,96 @@
+.body {
+  overflow-y: auto;
+  position: fixed;
+  #padding: 100px; 
+  top: 0px;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
+.body img {
+  filter: blur(2px) brightness(70%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 100vh;
+  left: 0;
+  z-index: -1;
+  position: relative;
+}
+
+.nav-bar {
+  display: flex; 
+  justify-content: flex-end;
+  gap: 15px;
+  float: right;
+  position: fixed;
+  right: 10px;
+  top: 15px;
+  margin-top: 0px;
+  z-index: 1;
+}
+
+.nav-bar button {
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-color: #726dfe;
+}
+
+.nav-bar button:hover {
+  filter: brightness(90%)
+}
+
+.main-heading {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 22%;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  display: grid;
+  place-items: center; 
+}
+
+.get-started-button {
+  position: absolute;
+  top: 70%;
+  left: 45%;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-color: #726dfe;
+}
+
+.get-started-button:hover {
+  opacity: 0.8;
+  transform: scale(1.2);
+}
+
+.descriptive-text {
+  position: absolute;
+  top: 55%;
+  left: 25%;
+  width: 50%;
+  color: white;
+  font-weight: bold;
+  padding-left: 20px; 
+  #text-indent: 20px;
+  text-align: center;
+
+}
