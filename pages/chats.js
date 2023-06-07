@@ -48,7 +48,7 @@ export default function Chats() {
     localStorage.removeItem("username");
     localStorage.removeItem("secret");
     setLoggedIn(false);
-    router.push("/");
+    router.push("/login");
   };
 
   if (!showChat) return <div />;
@@ -58,7 +58,7 @@ export default function Chats() {
     <Head>
         <title>Mikutano</title>
     </Head>
-    <div className="background" onClick={handleLogoClick}><h1 className="head-title">Mikutano</h1>
+    <div className="background"><h1 className="head-title" onClick={handleLogoClick}>Mikutano</h1>
 	  <div className="logo" onClick={handleLogoClick}>
            <img src="/img1.png" alt="Logo" />
       </div>

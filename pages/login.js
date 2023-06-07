@@ -39,10 +39,6 @@ export default function Auth() {
     router.push('/');
   };
 
-  const handleAboutButtonClick = () => {
-    router.push('/about');
-  };
-
   useEffect(() => {
     // Get the current date and time
     const updateDateTime = () => {
@@ -204,7 +200,6 @@ export default function Auth() {
        <div className="footer-separator"></div>
 	  <p>proudly created by Purity Chege, Joseph Kakai, Oluwatosin Orenaike</p>
 	  <p>© 2023 Mikutano</p>
-	  <button onClick={handleAboutButtonClick} className="about">About</button>
       </footer>
      </div>
     </div>
