@@ -12,8 +12,9 @@ export default function Index() {
     router.push('/about');
   };
 
-  const handleContactButtonClick = () => {
-    router.push('/contact');
+  const handleHomeButtonClick = () => {
+    window.location.reload();
+    router.push('/');
   };
 
   const handleh1Click = () => {
@@ -26,8 +27,8 @@ export default function Index() {
       <nav className="nav-bar">
 	<h1 onClick={handleh1Click}>Mikutano</h1>
 	<img src="/img1.svg" alt="logo" onClick={handleh1Click} loading="lazy" />
-        <button onClick={handleAboutButtonClick}>About</button>
-        <button onClick={handleContactButtonClick}>Contact</button>
+        <button onClick={handleHomeButtonClick}>Home</button>
+	<button onClick={handleAboutButtonClick}>About</button>
 	<button onClick={handleLoginButtonClick}>Get started</button>
       </nav>
       <div className="main-heading"><h1>link, connect and share your tech journey with fellow peers</h1></div>
@@ -75,6 +76,23 @@ export default function Index() {
           </div>
 	  <div className="five-image">
           <img src="/img11.jpeg" alt="person browsing" loading="lazy" />
+          </div>
+          </div>
+	  <hr className="border1" />
+	  <div className="home-feature"><h1>Features</h1></div>
+	  <hr className="border1" />
+
+	  <div className="main-container5">
+          <div className="five-image">
+          <img src="/p6.jpg" alt="person browsing" loading="lazy" />
+          </div>
+	  <div className="five-text">
+           <ul>
+	     <li>Seamless Messaging: Ensure that the messaging functionality is fast, efficient, and provides real-time updates. Users should be able to send and receive messages quickly, without any noticeable delays.</li>
+	     <li>Multiple Chat Rooms: Allow users to create and join multiple chat rooms. This feature enables users to engage in conversations on different topics simultaneously, increasing the versatility and utility of the app.</li>
+	     <li>Privacy and Security: Prioritize user privacy and security by implementing robust measures such as end-to-end encryption to protect conversations and personal information. Users should feel confident that their data is secure while using the app.</li>
+	     <li>Desktop Interface: Design an intuitive and visually appealing interface optimized for desktop screens. Ensure that the app provides a seamless user experience on desktop platforms, considering factors such as layout, navigation, and ease of use.</li>
+	   </ul>
           </div>
           </div>
 	  <div className="landing-footer">Proudly created by Purity Chege, Joseph Kakai, Oluwatosin Orenaike <p>© 2023 Mikutano</p></div>

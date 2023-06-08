@@ -2,6 +2,7 @@ import "../styles/auth.css";
 import "../styles/chats.css";
 import "../styles/index.css";
 import "../styles/home.css";
+import "../styles/about.css";
 
 import { ContextProvider } from '../context'
 

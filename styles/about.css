@@ -1,5 +1,202 @@
-.features {
-  text-align: center;
-  font-size: 32px;
+.about-container {
+  padding: 20px;
+  background-color: #726dfe;
+  color: white; 
 }
 
+.about-container h1 {
+  margin-bottom: 10px;
+  margin-left: 37%;
+  width: 30%;
+}
+
+.mikutano-button {
+  margin: 10px;
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+  float: left;
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  font-size: 30px;
+}
+
+.mikutano-button:hover {
+  opacity: 0.3;
+}
+
+.about-container button {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 14px;
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  float: right;
+  border-radius: 20px;
+}
+
+.about-container button:hover {
+  background-color: blue;
+}
+
+.about-container p {
+  margin-bottom: 10px;
+  margin-top: 52px;
+}
+
+.about-container ul {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.about-container li {
+  margin-bottom: 5px;
+}
+
+.about-container h2 {
+  text-align: center;
+  margin-top: 32px;
+}
+
+.contact-section {
+  text-align: center;
+  margin-bottom: 32px;
+  font-size:  
+}
+
+.twitter-logo {
+  position: absolute;
+  top: 172vh;
+  z-index: 1;
+  left: 27%;
+  cursor: pointer;
+}
+
+.main-section {
+  transform: translateX(-50%);
+  filter: invert(1);
+  transition: transform 0.3s ease;
+}
+
+.twitter-logo img {
+  width: 20px;
+  height: auto;
+}
+
+.twitter-logo:hover {
+  transform: translate(-50%) scale(1.2);
+}
+
+.dropdown {
+  position: absolute;
+  top: 90%;
+  left: 100%;
+  #transform: translate(-50%, 30%);
+  #background-color: rgba(255, 255, 255, 0.3);
+  border: 2px solid black;
+  padding: 3px;
+  list-style: none;
+  width: 165px;
+  background-color: transparent;
+  #backdrop-filter: blur(3px);
+  color: black;
+  font-size: 15px;
+  white-space: nowrap;
+}
+
+a:link {
+ color: white;
+ filter: invert(1);
+}
+
+a:visited {
+  color: white;
+}
+
+a:active {
+  color: #726dfe;
+}
+
+.github-logo {
+  position: absolute;
+  top: 172vh;  
+  z-index: 1;
+  left: 50%;
+  cursor: pointer;
+  transform: translateX(-50%);
+  filter: invert(1);
+  transition: transform 0.3s ease;
+
+}
+
+.github-logo img {
+  width: 20px;
+  height: auto;
+}
+
+.github-logo:hover {
+  transform: translate(-50%) scale(1.2);
+}
+
+.gmail-logo {
+  position: absolute;
+  top: 172vh;
+  z-index: 1;
+  left: 73%;
+  cursor: pointer;
+  transform: translateX(-50%);
+  filter: invert(1);
+  transition: transform 0.3s ease;
+}
+
+.gmail-logo img {
+  width: 20px;
+  height: auto;
+}
+
+.gmail-logo:hover {
+  transform: translate(-50%)  scale(1.2);
+}
+
+.about-section {
+  position: absolute !important;
+  top: 175vh;
+  left: 43%;
+ 
+}
+
+.source-code {
+  position: absolute;
+  left: 49.5%;
+  top: 187vh;
+  filter: invert(1);
+}
+
+.source-code img{	
+  height: 20px;
+  width: auto;
+  cursor: pointer; 
+}
+
+.source-code:hover {
+  transform: scale(1.2);
+}
+
+.about-container section {
+  text-align: center;
+  margin-top: 200px;
+}
+
+.home-feature {
+  margin-bottom: 50px;	
+  text-align: center;
+  margin-top: 50px;
+}
+
+.about-rights {
+  margin-top: 10px;
+}

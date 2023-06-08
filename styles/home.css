@@ -298,6 +298,14 @@
   backdrop-filter: blur(8px);
 }
 
+.landing-image-feature img {
+  height: auto;
+  width: 50%;
+  margin-left: 1%;
+
+
+}
+
 .landing-footer p {
   margin-bottom: 3px;
   padding: 0;
