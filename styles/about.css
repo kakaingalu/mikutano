@@ -1,7 +1,8 @@
 .about-container {
   padding: 20px;
   background-color: #726dfe;
-  color: white; 
+  color: white;
+  height: 220vh; 
 }
 
 .about-container h1 {
@@ -62,17 +63,11 @@
   margin-top: 32px;
 }
 
-.contact-section {
-  text-align: center;
-  margin-bottom: 32px;
-  font-size:  
-}
-
 .twitter-logo {
   position: absolute;
-  top: 172vh;
+  top: 174vh;
   z-index: 1;
-  left: 27%;
+  left: 20%;
   cursor: pointer;
 }
 
@@ -123,9 +118,9 @@ a:active {
 
 .github-logo {
   position: absolute;
-  top: 172vh;  
+  top: 174vh;  
   z-index: 1;
-  left: 50%;
+  left: 40%;
   cursor: pointer;
   transform: translateX(-50%);
   filter: invert(1);
@@ -144,9 +139,9 @@ a:active {
 
 .gmail-logo {
   position: absolute;
-  top: 172vh;
+  top: 174vh;
   z-index: 1;
-  left: 73%;
+  left: 60%;
   cursor: pointer;
   transform: translateX(-50%);
   filter: invert(1);
@@ -162,9 +157,47 @@ a:active {
   transform: translate(-50%)  scale(1.2);
 }
 
+.linkedin-logo {
+  position: absolute;
+  top: 174vh;
+  z-index: 1;
+  left: 73%;
+  cursor: pointer;
+  transform: translateX(-50%);
+  transition: transform 0.3s ease;
+  filter: invert(1);
+}
+
+.linkedin-logo img {
+  width: 20px;
+  height: auto;
+}
+
+.linkedin-logo:hover {
+  transform: translate(-50%)  scale(1.2);
+}
+
+.dropdown-linkedin {
+  position: absolute;
+  top: 90%;
+  left: 100%;
+  #transform: translate(-50%, 30%);
+  #background-color: rgba(255, 255, 255, 0.3);
+  border: 2px solid black;
+  padding: 3px;
+  list-style: none;
+  width: 165px;
+  background-color: transparent;
+  #backdrop-filter: blur(3px);
+  color: black;
+  font-size: 15px;
+  white-space: nowrap;
+}
+
+
 .about-section {
   position: absolute !important;
-  top: 175vh;
+  top: 190vh;
   left: 43%;
  
 }
@@ -172,7 +205,7 @@ a:active {
 .source-code {
   position: absolute;
   left: 49.5%;
-  top: 187vh;
+  top: 202vh;
   filter: invert(1);
 }
 
@@ -197,6 +230,11 @@ a:active {
   margin-top: 50px;
 }
 
+.bottom-section {
+  position: absolute;
+  top: 183vh;
+  width: 90%;
+}
 .about-rights {
   margin-top: 10px;
 }
