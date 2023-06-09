@@ -51,19 +51,19 @@ To install Mikutano, follow these steps:
 # Contact
   
   ## 1. Joseph Kakai 
-- Twitter: [@wantonraven](https://twitter.com/wantonraven)
-- LinkedIn: [Your Name](https://www.linkedin.com/in/joseph-kakai-041a96140/)
+- Twitter: [wantonraven](https://twitter.com/wantonraven)
+- LinkedIn: [Joseph Kakai](https://www.linkedin.com/in/joseph-kakai-041a96140/)
 - Gmail: [wanton raven](mailto:josephngalu96@gmail.com)
   
   ## 2. Purity Chege
-- Twitter: [@wantonraven](https://twitter.com/Khai_Purity01)
-- LinkedIn: [Your Name](https://www.linkedin.com/in/purity-chege-99302b22b/)
-- Gmail: [wanton raven](mailto:shishchei@gmail.com)
+- Twitter: [Purity Chege](https://twitter.com/Khai_Purity01)
+- LinkedIn: [Purity chege](https://www.linkedin.com/in/purity-chege-99302b22b/)
+- Gmail: [Purity Chege](mailto:shishchei@gmail.com)
   
   ## 3. Oluwatosin Orenaike
-- Twitter: [@wantonraven](https://twitter.com/otomisin)
-- LinkedIn: [Your Name](https://www.linkedin.com/in/otomisin/)
-- Gmail: [wanton raven](mailto:orenaiket@yahoo.com)
+- Twitter: [Oluwatosin Orenaike](https://twitter.com/otomisin)
+- LinkedIn: [Oluwatosin Orenaike](https://www.linkedin.com/in/otomisin/)
+- Gmail: [Oluwatosin Orenaike](mailto:orenaiket@yahoo.com)
   
 # License
   Mikutano is released under an open-source license.
