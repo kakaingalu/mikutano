@@ -5,7 +5,7 @@ Mikutano is a chatting application designed to connect software engineering stud
 ## Installation
 
 To install Mikutano, follow these steps:
-<span>NOTE:<span> all the following steps are to be perfomed in the repository.
+<br><span>NOTE:<span> all of the following steps are to be perfomed in the repository.
 1. Clone the repository:
    ```bash
    git clone https://github.com/wantonraven/mikutano.git
