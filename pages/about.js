@@ -152,7 +152,8 @@ export default function Index() {
           </div>
 
 	  <h2 className="about-section">Source Code</h2>
-	  <a className="source-code" src="https://github.com/wantonraven/mikutano"><img src="/github.svg" alt="github logo" /></a>
+	  <a className="source-code" href="https://github.com/wantonraven/mikutano"><img src="/github.svg" alt="github logo" /></a>
+
 
 	  <section className="bottom-section"> <hr />Proudly created by Purity Chege, Joseph Kakai, Oluwatosin Orenaike
           <div className="about-rights">© 2023 Mikutano</div></section>

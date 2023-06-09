@@ -27,127 +27,6 @@
   transform: translate(-50%, -5%) scale(1.2);
 }
 
-.twitter-logo {
-  position: absolute;
-  top: 10%;
-  z-index: 1;
-  left: 11.7%;
-  transform: translateX(-50%);
-  filter: invert(1);
-  transition: transform 0.3s ease;
-}
-
-.twitter-logo img {
-  width: 15px;
-  height: auto;
-}
-
-.twitter-logo:hover {
-  transform: translate(-50%) scale(1.2);
-}
-
-.dropdown-list {
-  position: absolute;
-  top: 350%;
-  left: 100%;
-  #transform: translate(-50%, 30%);
-  #background-color: rgba(255, 255, 255, 0.3);
-  border: 2px solid black;
-  padding: 3px;
-  list-style: none;
-  width: 165px;
-  background-color: transparent;
-  backdrop-filter: blur(3px);
-  color: black;
-  font-size: 15px;
-  white-space: nowrap;
-}
-
-.dropdown-list2 {
-  position: absolute;
-  top: 350%;
-  left: 100%;
-  #transform: translate(-50%, 30%);
-  #background-color: rgba(255, 255, 255, 0.3);
-  border: 2px solid black;
-  padding: 3px;
-  list-style: none;
-  width: 165px;
-  background-color: transparent;
-  backdrop-filter: blur(3px);
-  font-size: 15px;
-  white-space: nowrap;
-}
-
-.dropdown-list3 {
-  position: absolute;
-  top: 350%;
-  left: 100%;
-  #transform: translate(-50%, 30%);
-  #background-color: rgba(255, 255, 255, 0.3);
-  border: 2px solid black;
-  padding: 3px;
-  list-style: none;
-  width: 165px;
-  background-color: transparent;
-  backdrop-filter: blur(3px);
-  font-size: 15px;
-  white-space: nowrap;
-}
-
-a:link {
- color: white;
- filter: invert(1);
-}
-
-a:visited {
-  color: white;
-
-}
-
-a:active {
-  color: #726dfe;
-}
-
-.github-logo {
-  position: absolute;
-  top: 10%;
-  z-index: 1;
-  left: 7.7%;
-  transform: translateX(-50%);
-  filter: invert(1);
-  transition: transform 0.3s ease;
-
-}
-
-.github-logo img {
-  width: 15px;
-  height: auto;
-}
-
-.github-logo:hover {
-  transform: translate(-50%) scale(1.2);
-}
-
-.gmail-logo {
-  position: absolute;
-  top: 10%;
-  z-index: 1;
-  left: 3.7%;
-  transform: translateX(-50%);
-  filter: invert(1);
-  transition: transform 0.3s ease;
-}
-
-.gmail-logo img {
-  width: 15px;
-  height: auto;
-}
-
-.gmail-logo:hover {
-  transform: translate(-50%)  scale(1.2);
-}
-
 .date {
   position: absolute;
   top: 30px;
@@ -218,8 +97,7 @@ a:active {
   border-radius: 24px;
   box-shadow: 0 2px 15px rgb(0 0 0 / 68%);
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: center; 
 }
 
 .auth-form {
@@ -289,8 +167,7 @@ a:active {
 
 .space-list {
   position: absolute;
-  top: 70px;
-    
+  top: 70px;    
 }
 
 li {
@@ -314,7 +191,6 @@ li {
 .footer-separator {
   border-top: 5px solid white; 
   margin-bottom: 0px;
-
 }
 
 .about {
