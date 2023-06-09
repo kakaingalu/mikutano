@@ -33,9 +33,9 @@ To install Mikutano, follow these steps:
 # Usage
 1. From the main page click `get started` to get in the login page.
   ![Mikutano](public/p4.png)
-2. `Sign in or sign up` if you don't have an account.
+2. `Login or sign up` if you don't have an account.
   ![Mikutano](public/p1.png)
-3. Click on the bar(`Chat title`) in the top left corner and type name of chat room of your wish to create a chat room and start a conversation.
+3. Click on the bar(`Chat Title`) in the top left corner and type name of chat room of your wish to create a chat room and start a conversation.
   ![Mikutano](public/p2.png)
 4. If you want to chat with someone specific, click on the "People" button in the right middle section, search for their name, and start a conversation with them.
 
