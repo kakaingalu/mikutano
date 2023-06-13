@@ -66,7 +66,7 @@ export default function Chats() {
       <div className="shadow-chat">
         <ChatEngine
           height='calc(100vh - 200px)'
-          projectID="369e8a2c-b584-4ffc-ac13-e54928c58720"
+          projectID="{PUT HERE YOUR PROJECT ID OR USE ENVITOMENTAL VARIABLES}"
           userName={localStorage.getItem("username")}
           userSecret={localStorage.getItem("secret")}
           renderNewMessageForm={() => <MessageFormSocial />}
