@@ -30,6 +30,25 @@ To install Mikutano, follow these steps:
    ```bash
    yarn start
    ```
+# Create an Account for Chat Engine
+To use Chat Engine in your project and obtain the required private key and project ID, you need to create an account on Chat Engine. Follow these steps to create an account:
+- Visit the Chat Engine website (insert website URL).
+- Click on the "Sign Up" or "Create Account" button.
+- Fill out the registration form with your details, including your email address and a strong password.
+- Submit the form to create your account.
+- Once your account is created, log in to Chat Engine using your credentials.
+- Navigate to the account settings or dashboard section.
+- Look for the option to create a new project or access existing projects.
+- Create a new project and provide it with a name.
+- After creating the project, you should be able to obtain the private key and project ID specific to that project.
+- Copy the private key and project ID and use them in the respective files mentioned in the setup instructions above.
+
+
+# To change the keys
+- Open the project in your preferred code editor.
+- Private Key: In the login.js file, locate the privateKey variable and replace it with your own private key obtained from Chat Engine.
+- Project ID: In the chat.js file, locate the projectID variable and replace it with your own project ID obtained from Chat Engine.
+   
 # Usage
 1. From the main page click `get started` to get in the login page.
   ![Mikutano](public/p4.png)
