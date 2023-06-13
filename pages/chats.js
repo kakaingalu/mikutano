@@ -4,6 +4,7 @@ import { useRouter } from "next/router";
 import dynamic from "next/dynamic";
 import Head from 'next/head';
 
+// Importing dynamic components from react-chat-engine library
 const ChatEngine = dynamic(() =>
   import("react-chat-engine").then((module) => module.ChatEngine)
 );
@@ -19,6 +20,7 @@ export default function Chats() {
   const router = useRouter()
 
   useEffect(() => {
+    // Checking if the document is available (to prevent issues during server-side rendering)
     if (typeof document !== null) {
       setShowChat(true);
     }
@@ -28,8 +30,10 @@ export default function Chats() {
     const storedUsername = localStorage.getItem("username");
     const storedSecret = localStorage.getItem("secret");
     if (storedUsername && storedSecret) {
+      // User is already logged in
       setLoggedIn(true);
     } else {
+      // Redirect to login page if username or secret is missing
       if (username.length === 0 || secret.length === 0) { 
       router.push("/");
       } else {
@@ -39,11 +43,13 @@ export default function Chats() {
       }
     }
   }, [username, secret]);
-  
+
+  // Handle logo click event
   const handleLogoClick = () => {
       window.location.reload();
   };
-  
+
+  // Handle logout button click event
   const handleLogout = () => {
     localStorage.removeItem("username");
     localStorage.removeItem("secret");
