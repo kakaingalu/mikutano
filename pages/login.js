@@ -10,14 +10,17 @@ export default function Auth() {
   const { username, setUsername, secret, setSecret } = useContext(Context);
 
   const router = useRouter()
+  // Check if the current page is the 'chats' page
   const isChatsPage = router.pathname === '/chats';
   const [currentDate, setCurrentDate] = useState('');
   const [isDropdownOpen, setIsDropdownOpen] = useState(null);
 
+  // Toggle the dropdown state
   const toggleDropdown = (dropdown) => {
   setIsDropdownOpen(prevDropdown => prevDropdown === dropdown ? null : dropdown);
 };
 
+  // Handle form submission
   function onSubmit(e) {
     e.preventDefault()
 
@@ -31,10 +34,12 @@ export default function Auth() {
     .then(r => router.push('/chats'))
   }
 
+  // Reload the page when the logo is clicked
   const handleLogoClick = () => {
     window.location.reload();
   };
 
+  // Navigate to the home page when the home button is clicked
   const handleHomeButtonClick = () => {
     router.push('/');
   };
