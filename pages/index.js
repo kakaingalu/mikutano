@@ -4,37 +4,46 @@ import { useRouter } from 'next/router';
 export default function Index() {
   const router = useRouter();
 
+  // Handle button click to navigate to the login page
   const handleLoginButtonClick = () => {
     router.push('/login');
   };
 
+  // Handle button click to navigate to the about page
   const handleAboutButtonClick = () => {
     router.push('/about');
   };
 
+  // Handle button click to reload the page and navigate to the home page
   const handleHomeButtonClick = () => {
     window.location.reload();
     router.push('/');
   };
 
+  // Handle h1 click to reload the page
   const handleh1Click = () => {
     window.location.reload();
   };
 
   return (
     <div className="body">
+    {/* Body image */}
     <img src="/img2.jpg" alt="team work" className="body-image" loading="lazy" />
+      {/* Navigation bar */}
       <nav className="nav-bar">
 	<h1 onClick={handleh1Click}>Mikutano</h1>
 	<img src="/img1.svg" alt="logo" onClick={handleh1Click} loading="lazy" />
+	{/* Navigation buttons */}
         <button onClick={handleHomeButtonClick}>Home</button>
 	<button onClick={handleAboutButtonClick}>About</button>
 	<button onClick={handleLoginButtonClick}>Get started</button>
       </nav>
+      {/* Main heading */}
       <div className="main-heading"><h1>link, connect and share your tech journey with fellow peers</h1></div>
       <p className="descriptive-text">Embark on a thrilling adventure through the vast realms of technology, where innovation knows no bounds!</p>	  
        <button onClick={handleLoginButtonClick} className="get-started-button">Get started</button>
       <div className="lower-page-heading">How can Mikutano help you?</div>
+	  {/* Main container 1 */}
 	  <div className="main-container1">
 	  <div className="first-text">Together, we'll navigate the ever-evolving landscape of technology, sharing insights, exchanging ideas, and building connections that transcend borders and boundaries. Whether you're a seasoned tech enthusiast or just taking your first steps into this awe-inspiring world, there's a place for you in our vibrant community.</div>
 	  <div className="first-image">
@@ -42,6 +51,7 @@ export default function Index() {
 	  </div>
 	  </div>
 	  <hr className="border1" />
+          {/* Main container 2 */}
 	  <div className="main-container2">
 	  <div className="second-image">
           <img src="/img5.jpg" alt="person browsing" loading="lazy" />
@@ -53,6 +63,7 @@ export default function Index() {
 	  </div>
 	  <hr className="border1" />
 	  <div className="main-container3">
+	  {/* Main container 3 */}
           <div className="third-text">Build right connections with tech professionals Together, we'll navigate the ever-evolving landscape of technology, sharing insights, exchanging ideas, and building connections that transcend borders and boundaries. Whether you're a seasoned tech enthusiast or just taking your first steps into this awe-inspiring world, there's a place for you in our vibrant community.
           </div>
           <div className="third-image">
@@ -60,6 +71,7 @@ export default function Index() {
           </div>
           </div>
 	  <hr className="border1" />
+	  {/* Main container 4 */}
 	  <div className="main-container4">
           <div className="four-image">
           <img src="/img10.jpeg" alt="person browsing" loading="lazy" />
@@ -70,6 +82,7 @@ export default function Index() {
           </div>
           </div>
 	  <hr className="border1" />
+	  {/* Main container 5 */}
 	  <div className="main-container5">
           <div className="five-text">
           Unleash the power of collective learning So, let's link our minds, connect our passions, and share our tech journey with fellow peers. Together, we'll create a collaborative space where creativity thrives, questions are answered, and inspiration flows freely. It's time to unleash the power of collective learning, shaping the future of technology while forging lasting friendships along the way.
